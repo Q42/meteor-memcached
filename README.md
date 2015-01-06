@@ -3,6 +3,7 @@ meteor-memcached
 
 Memcached package for meteor without Npm module requirements, based on 3rd-Eden node-memcached: https://github.com/3rd-Eden/node-memcached
 
+```
   meteor add q42:memcached
 
   var memcached = new Memcached( [ 'localhost:11211', 'localhost:11212'] );
@@ -10,6 +11,7 @@ Memcached package for meteor without Npm module requirements, based on 3rd-Eden 
   memcached.set( "key", "value", 2, function (err, res) {
     console.log("memcached set action response", err, res);
   });
+```
 
 ================
 

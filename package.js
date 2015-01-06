@@ -1,7 +1,7 @@
 Package.describe({
   name: 'q42:memcached',
   summary: 'Memcached client for Meteor. Based on 3rd-eden node-memcached,version 2.0.0',
-  version: '2.0.3',
+  version: '1.0.0',
   git: ' /* Fill me in! */ '
 });
 
